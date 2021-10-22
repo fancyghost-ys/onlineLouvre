@@ -1,0 +1,77 @@
+.bg-img{
+    height: 100%;
+    width: 50%;
+    background-image: url('../../../Assets/login/bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .loginarea{
+      background-color: #005760;
+    height: 100%;
+    width: 50%;
+}
+
+.logo{
+    font-family: 'Martel';
+    font-style: bold;
+    color: rgb(234, 254, 255);
+    font-size: 50px;
+}
+
+.title{
+    font-family: 'Open Sans Condensed';
+    font-style: bold;
+    color: #ffda00;
+    font-size:40px;
+}
+.title2{
+    font-family: 'Open Sans Condensed';
+    font-style: bold;
+    color: #ffda00;
+    font-size: 40px;;
+}
+.children{
+    width: 20vh;
+}
+
+.bd{
+    width: 60%;
+    padding-top: 0;
+    margin-top:0;
+    border-radius: 2%;
+    background-color: rgba(255, 255, 255, 0.898);
+   
+}
+
+.bd-2{
+  width: 50%;
+  padding-top: 0;
+  margin-top:0;
+  border: 3px solid #0056605b;
+  border-radius: 2%;
+  background-color: #00566021;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+
+  
+  

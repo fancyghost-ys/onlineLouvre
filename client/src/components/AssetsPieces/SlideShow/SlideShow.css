@@ -1,0 +1,81 @@
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 60%;
+  }
+  
+  .slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+  }
+  
+  .slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  /* Buttons */
+  
+  .slideshowDots {
+    text-align: center;
+  }
+  
+  .slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    margin: 15px 7px 0px;
+  
+    background-color: #c4c4c4;
+  }
+  
+  .slideshowDot.active {
+    background-color: #ffd900;
+  }
+  
+  .btn-circle.btn-sm { 
+    width: 20px; 
+    height: 20px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+  } 
+  
+  .borderc{
+    border: 2.5px solid #ffd900;
+    color:#ffd900;
+  }
+  
+  .borderc:hover{
+    background-color: #ffd900;
+    color:#ffffff;
+  }
+  
+  .borderd{
+    border: 2.5px solid #104210  ;
+    color:#104210  ;
+  }
+  
+  .borderd:hover{
+    background-color: #104210;
+    color:#ffffff;
+  }
+  
+  .back1{
+    background-color: #F6A21E  ;
+  }
+  
+  .money{
+    color: #044a04;
+  }
+  
+  .bor{
+    border-bottom: 4px #F6A21E solid;
+  }

@@ -1,0 +1,23 @@
+
+.menu-bar{
+    background-color: #000000 ;
+}
+.logo{
+    font-family: 'Martel';
+    font-style: bold;
+    color: rgb(234, 254, 255);
+}
+
+.nav-item{
+    font-family: 'ABeeZee';
+    font-size: large;
+}
+
+.img-profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
