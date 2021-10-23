@@ -16,6 +16,7 @@ router.post('/AddNewArtPiece', [requireSignin, isAuth, isMMstaff], uploadsOption
 router.put('/UpdateArtPiece/:id', [requireSignin, isAuth, isMMstaff], uploadsOptions.single('picture'), updateArtPiece)
 router.delete('/RemoveArtPiece/:id', [requireSignin, isAuth, isMMstaff], removeArtPiece)
 
+
 module.exports = router
 
 
