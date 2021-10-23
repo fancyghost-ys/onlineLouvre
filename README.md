@@ -20,6 +20,7 @@ The Louvre mini version has been extended to a two-part guest who can see all th
 
   ##  Project Links
   ##### GitHub Repo link: https://github.com/fancyghost-ys/onlineLouvre/
+  #### Loom Video link: https://www.loom.com/share/df774cd6ec7f4862a2a97645c5674ffc
   
   ## Project Objective
   * To build a responsive fully functional for Online louvre application that allows the Musuem staff  to save, retrieve and delete data like users accounts and artPieces and the guests to see all Art pieces in Museum and read full description through their profiles. 
