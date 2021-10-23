@@ -6,3 +6,4 @@ module.exports ={
     dbUrl: process.env.DBAPI_URL,
     JwtSecret:process.env.SECRET
 }
+
