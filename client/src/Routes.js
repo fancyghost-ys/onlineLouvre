@@ -9,6 +9,7 @@ import Home from './components/Guset/Home/Home'
 import AdminDashboard from './components/Admin/Manage/Dashboard'
 import EditArtPiece from './components/Admin/Manage/EditArtPiece'
 import App from './App'
+import PageNotFound from './PageNotFound'
 
 const Routes = () =>{
     return(
@@ -23,6 +24,7 @@ const Routes = () =>{
                 <AdminRoute path='/admin/dashboard' exact  component={AdminDashboard} />
                 <AdminRoute path='/admin/addNew' exact  component={AddNewPiece} />
                 <AdminRoute path='/admin/editArt/:id' exact  component={EditArtPiece} />
+                <Route path="*" component={PageNotFound} />
             </Switch>
         </BrowserRouter>
     )
