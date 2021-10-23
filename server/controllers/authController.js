@@ -14,6 +14,7 @@ exports.signUp = async (req, res) => {
     })
 }
 
+
 exports.signIn = async (req, res) => {
     const { userName, password } = req.body;
     await User.findOne({ userName }).then((user) => {
