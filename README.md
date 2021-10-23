@@ -52,7 +52,7 @@ The Louvre mini version has been extended to a two-part guest who can see all th
   
   ## Author Contact
   Contact the author with any questions!<br>
-  Github link: [imbingz](https://github.com/fancyghost-ys)<br>
+  Github link: [Fancyghost](https://github.com/fancyghost-ys)<br>
   
 
   
