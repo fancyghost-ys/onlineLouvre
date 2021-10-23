@@ -30,3 +30,5 @@ app.use('/public/upload',express.static(__dirname+ '/public/upload'))
 app.listen(config.appPort,()=> {
     console.log(`Server is running now on ${config.appUrl}:${config.appPort}`)
 })
+
+
