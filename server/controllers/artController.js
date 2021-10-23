@@ -1,7 +1,5 @@
 const ArtPieces = require('../models/artPieces')
-const express = require('express')
 const multer = require('multer')
-
 
 const FILE_EXETENIONS = {
     'image/png': 'png',
@@ -26,7 +24,6 @@ const storage = multer.diskStorage({
 uploadsOptions = multer({ storage: storage })
 
 exports.uploadsOptions = uploadsOptions
-
 
 
 exports.allArtPieces = async (req, res, next) => {
