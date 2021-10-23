@@ -19,3 +19,4 @@ router.delete('/RemoveArtPiece/:id', [requireSignin, isAuth, isMMstaff], removeA
 module.exports = router
 
 
+
