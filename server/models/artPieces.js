@@ -8,9 +8,11 @@ const artPiecesSchema = new mongoose.Schema({
     },
     artist:{
         type:String,
+        required:true,
     },
     description:{
         type:String,
+        required:true,
     }
 }, { timestamps: true }
 )
