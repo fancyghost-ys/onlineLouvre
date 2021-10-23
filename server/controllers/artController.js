@@ -32,6 +32,7 @@ exports.uploadsOptions = uploadsOptions
 exports.allArtPieces = async (req, res, next) => {
     let pagesize = 5
     let n = req.query.page ? req.query.page : 1
+    // const PieceNo = await ArtPieces.;
     await ArtPieces.find().skip(pagesize * (n - 1)).limit(pagesize).then((artPieces) => {
         if (!artPieces) {
             return res.status(404).json({ error: 'Not found 404' })
