@@ -17,7 +17,6 @@ exports.isAuth = (req, res, next) => {
     next()
 }
 
-
 exports.isMMstaff = (req, res, next) => {
     if (req.auth.role !== 1) {
         return res.status(403).json({
@@ -28,13 +27,13 @@ exports.isMMstaff = (req, res, next) => {
 }
 
 
-exports.extractToken = (req) => {
-    if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') {
-        token = req.headers.authorization.split(' ')[1];
-        console.log(token)
-        return req.headers.authorization.split(' ')[1];
-    } else if (req.query && req.query.token) {
-        return req.query.token;
-    }
-    return null;
-}
+// exports.extractToken = (req) => {
+//     if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') {
+//         token = req.headers.authorization.split(' ')[1];
+//         console.log(token)
+//         return req.headers.authorization.split(' ')[1];
+//     } else if (req.query && req.query.token) {
+//         return req.query.token;
+//     }
+//     return null;
+// }
