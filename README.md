@@ -4,11 +4,11 @@ A Full-Stack Mern application that uss React, Redux, MongoDB, Nodejs, ExpressJS 
 The Louvre mini version has been extended to a two-part guest who can see all the art pieces in the Louvre but of course through their profiles and museum staff who are responsible for managing user accounts and museum operations (adding, updating, and removing the art piece(s)
 
 <hr>
-  ## Table of Content
+
+
+
+  ### Table of Content
   * [ Project Links ](#Project-Links)
-  * [ Screenshots-Demo ](#Screenshots-Demo)
-  * [ Project Objective ](#Project-Objective)
-  * [ User Story ](#User-Story)
   * [ Technologies ](#Technologies)
   * [ Installation ](#Installation)
   * [ Usage ](#Usage)
@@ -16,7 +16,7 @@ The Louvre mini version has been extended to a two-part guest who can see all th
   * [ Tests ](#Tests)
   * [ Author Contact ](#Author-Contact)
   * [ License ](#License)
-  #
+  
 
   ##  Project Links
   ##### GitHub Repo link: https://github.com/fancyghost-ys/onlineLouvre/
